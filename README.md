@@ -3,23 +3,50 @@
 
 ## Setup instructions
 ### 1. Install Miniconda
-To install `conda`, head over to their [website](https://docs.conda.io/en/latest/miniconda.html). This contains a bunch of links for installers as well as to the installation instructions. **Make sure you get the version for Python 3.9.**
+To install `conda`, head over to their [website](https://docs.conda.io/en/latest/miniconda.html). This contains a bunch of links for installers as well as to the installation instructions.
 
-### 2. Download the repo
-Open the terminal and navigate to where you want to store the files for the class (`cd <path-to-directory>`). Now copy this command into the terminal and run it:
+#### For Windows
+1. Scroll to the installer for **Python 3.9** for Windows, and click the link to download the file.
+2. Once downloaded, click on the executable to run it.
+3. Follow the installation prompts. The recommended settings should be fine, but don't hesitate to ask if you're unsure.
+
+#### For Mac
+1. Scroll to the installer for **Python 3.9** for Mac OS, and click the link to download the file.
+2. Open the Terminal program.
+3. Type
 ```
+cd ~/Downloads
+```
+and hit enter. This runs the command to enter your Downloads folder.
+4. Type
+```
+bash Mini
+```
+and hit tab, followed by enter. This will start the installer.
+5. Follow the installation prompts. The recommended settings should be fine, but don't hesitate to ask if you're unsure.
+
+### 2. Download this repo
+
+#### Via git (recommended method for Mac)
+1. In the terminal, run the following commands:
+```
+cd ~
 git clone https://github.com/mathildaam/astro-winterim-2023.git
 ```
-If you have issues with this contact me.
+
+#### Via zip (works for Windows or Mac)
+1. Click the green "Code" button and from the dropdown menu, click "Download ZIP"
+2. Extract the zip file when downloaded. I recommend putting it in a directory called `astro-winterim-2023` in your home directory.
 
 ### 3. Set up the `conda` environment
-Copy this command into the terminal and run it:
+In the terminal (Mac) or Anaconda prompt (Windows), run the following.
 ```
+cd ~/astro-winterim-2023
 conda env create -f env.yml
 ```
 
 ### 4. Run Jupyter
-This series of commands will open a browser window with Jupyter running in it.
+In the terminal (Mac) or Anaconda prompt (Windows), run the following.
 ```
 cd notebooks
 conda activate winterim

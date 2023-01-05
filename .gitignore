@@ -1,4 +1,7 @@
 diagrams/*
 pretty-pictures/*
+stars/*
+data/*
+!data/hipparcos.fit
 *_checkpoints*
 *~
