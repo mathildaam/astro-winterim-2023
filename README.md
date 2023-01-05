@@ -38,10 +38,11 @@ cd ~/astro-winterim-2023
 conda env create -f env.yml
 ```
 
-### 4. Run Jupyter
+## Running Jupyter
 In the terminal (Mac) or Anaconda prompt (Windows), run the following.
 ```
-cd notebooks
+cd ~/astro-winterim-2023/notebooks
 conda activate winterim
 jupyter notebook
 ```
+
