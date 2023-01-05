@@ -13,22 +13,15 @@ To install `conda`, head over to their [website](https://docs.conda.io/en/latest
 #### For Mac
 1. Scroll to the installer for **Python 3.9** for Mac OS, and click the link to download the file.
 2. Open the Terminal program.
-3. Type
-```
-cd ~/Downloads
-```
-and hit enter. This runs the command to enter your Downloads folder.
-4. Type
-```
-bash Mini
-```
-and hit tab, followed by enter. This will start the installer.
+3. Type `cd ~/Downloads`
+and press enter. This runs the command to enter your Downloads folder.  
+4. Type `bash Mini` and press tab, followed by enter. This will start the installer.  
 5. Follow the installation prompts. The recommended settings should be fine, but don't hesitate to ask if you're unsure.
 
 ### 2. Download this repo
 
 #### Via git (recommended method for Mac)
-1. In the terminal, run the following commands:
+In the terminal, run the following commands:
 ```
 cd ~
 git clone https://github.com/mathildaam/astro-winterim-2023.git
