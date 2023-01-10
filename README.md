@@ -34,14 +34,14 @@ git clone https://github.com/mathildaam/astro-winterim-2023.git
 ### 3. Set up the `conda` environment
 In the terminal (Mac) or Anaconda prompt (Windows), run the following.
 ```
-cd ~/astro-winterim-2023
+cd ~/Downloads/astro-winterim-2023
 conda env create -f env.yml
 ```
 
 ## Running Jupyter
 In the terminal (Mac) or Anaconda prompt (Windows), run the following.
 ```
-cd ~/astro-winterim-2023/notebooks
+cd ~/Downloads/astro-winterim-2023/notebooks
 conda activate winterim
 jupyter notebook
 ```

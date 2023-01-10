@@ -3,5 +3,8 @@ pretty-pictures/*
 stars/*
 data/*
 !data/hipparcos.fit
+solar-system/*
+exoplanets/*
+galaxies/*
 *_checkpoints*
 *~
